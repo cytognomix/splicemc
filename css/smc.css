@@ -1,0 +1,192 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+.ui-slider-horizontal .ui-state-default 
+{
+  background: white url(http://transportation.boisestate.edu/images/TinyUpArrow.jpg) no-repeat scroll 50% 50%;
+}
+
+.ui-slider .ui-slider-handle {
+    background: purple;
+}
+
+#slider1{
+  width:490px; 
+  position:relative; 
+  left:50px;
+}
+
+#slider2{
+  width:162px; 
+  position:relative; 
+  left: 48px;
+}
+
+#acceptorlocation{
+  border:0; 
+  color:#000000; font-weight:bold;
+}
+
+#donorlocation{
+  border:0;
+  color:#000000;
+  font-weight:bold;
+}
+
+h{
+  font-weight:bold;
+  padding-top:0px;
+  margin-top:0px;
+}
+
+#error {
+	color:red;
+	font-size:1.3em;
+}
+
+.feedback{
+  margin-top:0px;
+}
+
+.deleterious{
+  background-color:#ff2d2d;
+}
+
+.probDel{
+  background-color:#8080ff;
+}
+
+.leaky{
+  background-color:#B3FFE7;
+}
+
+.benign{
+  background-color:#66FF66;
+}
+
+.unselectedLogo{
+    -webkit-opacity: 0.5;
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+}
+
+.arrowpoint {
+    position:absolute;
+    top:0;
+    right:0;
+    font-size:8px;
+}
+
+
+
+.arrow {
+    height:1px;
+    position:relative;
+    background:#000000;
+    padding:5px 5px 0px 5px;
+    margin:14px 4px 4px 18px;
+}
+
+.arrow:after, .arrow:before {
+    left:100%;
+    top:50%;
+    border:solid transparent;
+    content:" ";
+    height:0;
+    width:0;
+    position:absolute;
+    pointer-events:none;
+}
+
+.arrow:after {
+    border-left-color:#000000;
+    border-width:15px;
+    margin-top:-15px;
+}
+
+.arrow:before {
+    border-left-color:#000000;
+    border-width:15px;
+    margin-top:-15px;
+}
+
+#error{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.resultsTable td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.resultsTable {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 734px;
+    table-layout: fixed;
+}
+
+.resultsTable td:first-child{
+    width:450px;
+}
+
+.resultsTable td:nth-child(2){
+    width: 140px;
+}
+
+#Legend_table{
+    width: 734px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#refTableButton{
+    width: 282px;
+    /*float: right;
+    position: relative;
+    top: -80px;*/
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/*#logocitation{
+    width: 200px;
+    float: right;
+    position: relative;
+    clear: both;
+    top: 350px;
+    font-size: 12px;
+}*/
+
+#steps{
+    table-layout:fixed;
+    clear: both;
+}
+#steps td:first-child{
+    width: 600px;
+}
+
+#steps td:nth-child(2){
+    width: 291px;
+}
+
+#steps2{
+    table-layout:fixed;
+}
+
+#steps td:first-child{
+    width: 250px;
+}
+
+#steps td:nth-child(2){
+    width: 350px;
+}
+.footnotes{
+    font-size: 12px;
+}
